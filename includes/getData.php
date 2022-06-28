@@ -24,11 +24,6 @@ if ($data = mysqli_fetch_array($results)) {
     $json = $result;
 }
 
-/* date_default_timezone_set("America/Guayaquil");
-$hora = date("i");
-if ($hora === '44') {
-    $result = $connect->query("UPDATE variables_vivo SET suelo='40', temperature='20',  humidity='10' WHERE id=1");
-} */
 
 mysqli_close($connect);
 echo json_encode($json);
