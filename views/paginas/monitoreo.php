@@ -79,7 +79,7 @@ include 'barra.php';
 
         $.ajax({
             
-            url: "http://localhost/Monitoreo_Invernadero/includes/getData.php",
+            url: "https://cryptic-meadow-83396.herokuapp.com/getData",
             type: "POST",
             dataType: "json",
             success: function(data) {
