@@ -71,16 +71,17 @@ include 'barra.php';
 <script>
     $(document).ready(function() {
 
-        setInterval(charts, 1500);
+        setInterval(charts, 1000);
 
     });
 
     function charts() {
 
         $.ajax({
-            
-            url: "https://cryptic-meadow-83396.herokuapp.com/getData",
-            type: "POST",
+            //Para local
+            /* url: "http://localhost:3000/getData", */
+            url: "http://localhost/getData",
+            type: "GET",
             dataType: "json",
             success: function(data) {
 
