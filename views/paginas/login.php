@@ -12,7 +12,7 @@
         ?>
         <form method="POST" action="">
             <!-- USERNAME INPUT -->
-            <label for="username">Correo electronico</label>
+            <label for="username">Correo electronico.</label>
             <input name="correo" type="text" placeholder="Ingresar Usuario">
             <!-- PASSWORD INPUT -->
             <label for="password">Password</label>
