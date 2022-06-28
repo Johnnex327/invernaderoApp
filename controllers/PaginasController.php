@@ -3,6 +3,7 @@
 
 namespace Controllers;
 
+use Dotenv\Store\StringStore;
 use LDAP\Result;
 use MVC\Router;
 use Model\Usuario;
@@ -130,6 +131,13 @@ class PaginasController
 
         header('Location: /login');
 
+    }
+
+    public static function setData(Router $router){
+        
+        $router->render('../includes/setData', [
+            
+        ]);
     }
 
 

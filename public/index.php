@@ -16,6 +16,7 @@ $router->get('/configuracion', [PaginasController::class, 'configuracion']);
 $router->get('/reportes', [PaginasController::class, 'reportes']);
 $router->post('/reportes', [PaginasController::class, 'reportes']);
 $router->get('/logout', [PaginasController::class, 'logout']);
+$router->get('/setData', [PaginasController::class, 'setData']);
 
 
 
