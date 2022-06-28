@@ -78,7 +78,7 @@ include 'barra.php';
     function charts() {
         $.ajax({
             
-            url: "http://cryptic-meadow-83396.herokuapp.com/Monitoreo_Invernadero/includes/getData.php",
+            url: "http://cryptic-meadow-83396.herokuapp.com/getData",
             type: "POST",
             dataType: "json",
             success: function(data) {
