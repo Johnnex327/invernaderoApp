@@ -76,8 +76,8 @@ include 'barra.php';
     });
 
     function charts() {
-
         $.ajax({
+            
             url: "http://localhost/Monitoreo_Invernadero/includes/getData.php",
             type: "POST",
             dataType: "json",

@@ -1,6 +1,6 @@
 <?php
-
-include './connect.php';
+header('Access-Control-Allow-Origin: *');
+include 'connect.php';
 $json = array();
 
 

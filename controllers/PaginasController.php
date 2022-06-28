@@ -140,6 +140,13 @@ class PaginasController
         ]);
     }
 
+    public static function getData(Router $router){
+        
+        $router->render('../includes/getData', [
+            
+        ]);
+    }
+
 
     public static function ultimosDias($dias, $campoBaseDatos)
     {
