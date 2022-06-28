@@ -80,8 +80,8 @@ include 'barra.php';
         $.ajax({
             //Para local
             /* url: "http://localhost:3000/getData", */
-            url: "https://cryptic-meadow-83396.herokuapp.com/getData",
-            type: "GET",
+            url: "http://cryptic-meadow-83396.herokuapp.com/getData",
+            type: "POST",
             dataType: "json",
             success: function(data) {
 
