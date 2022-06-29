@@ -81,7 +81,7 @@ include 'footer.php';
             //Para local
             /* url: "http://localhost:3000/getData", */
             url: "https://cryptic-meadow-83396.herokuapp.com/getData",
-            type: "GET",
+            type: "POST",
             dataType: "json",
             success: function(data) {
 
