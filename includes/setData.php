@@ -4,13 +4,13 @@
     $connect = mysqli_connect($hostname, $username, $password, $database);
 
     date_default_timezone_set("America/Guayaquil");
-    $fecha = date("Y-m-d") ?? '2022-06-27 00:00:00';
+    $fecha = date("Y-m-d") ?? '2022-06-28 00:00:00';
 
-    $riegos = $_POST['riegos'] ??  1;
+    $riegos = $_POST['riegos'] ??  2;
     $h_suelo = $_POST['h_suelo'] ??  30;
     $temperatura = $_POST['temperatura'] ??  32;
     $h_relativa = $_POST['h_relativa'] ??  65;
-    $id_micro = $_POST['id_micro'] ??  4;
+    $id_micro = $_POST['id_micro'] ??  5;
 
 
     $query = "SELECT * FROM control_riego WHERE fecha = '".$fecha."' ";

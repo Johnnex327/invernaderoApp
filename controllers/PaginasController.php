@@ -135,9 +135,7 @@ class PaginasController
 
     public static function setData(Router $router){
         
-        $router->render('../includes/setData', [
-            
-        ]);
+        include '../includes/setData.php';
     }
 
     public static function getData(Router $router){
