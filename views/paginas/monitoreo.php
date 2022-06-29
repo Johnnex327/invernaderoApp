@@ -4,7 +4,7 @@ include 'barra.php';
 ?>
 
 <div class="contenedor">
-    
+
     <div class="row">
 
         <div class="contenedor">
@@ -40,7 +40,7 @@ include 'barra.php';
     <div class="contenedor division">
         <fieldset class="informacion">
             <legend>Estado de riego</legend>
-            
+
             <div class="elementos-estado-riego">
                 <p>Estado: </p>
                 <p>Tiempo establecido:</p>
@@ -52,9 +52,9 @@ include 'barra.php';
         <fieldset class="informacion">
             <legend>Recomendaciones</legend>
             <div>
-            <h4><img class="icon" src="build/img/visto.png">Humedad de suelo: 30 - 40%</h4>
-            <h4><img class="icon" src="build/img/visto.png">Temperatura: 21º - 30º</h4>
-            <h4><img class="icon" src="build/img/visto.png">Humedad Relativa: 50% -70%</h4>
+                <h4><img class="icon" src="build/img/visto.png">Humedad de suelo: 30 - 40%</h4>
+                <h4><img class="icon" src="build/img/visto.png">Temperatura: 21º - 30º</h4>
+                <h4><img class="icon" src="build/img/visto.png">Humedad Relativa: 50% -70%</h4>
             </div>
         </fieldset>
 
@@ -62,7 +62,7 @@ include 'barra.php';
 </div>
 
 <?php
-    include 'footer.php';
+include 'footer.php';
 ?>
 
 
@@ -80,8 +80,8 @@ include 'barra.php';
         $.ajax({
             //Para local
             /* url: "http://localhost:3000/getData", */
-            url: "http://cryptic-meadow-83396.herokuapp.com/getData",
-            type: "POST",
+            url: "https://cryptic-meadow-83396.herokuapp.com/getData",
+            type: "GET",
             dataType: "json",
             success: function(data) {
 
@@ -96,12 +96,12 @@ include 'barra.php';
                 });
                 $(".value-temperature").html(data.temperatura + " C°");
 
-                
+
                 $(".gauge-humidity").gaugeMeter({
                     percent: data.h_relativa
                 });
                 $(".value-humidity").html(data.h_relativa + " %");
-        
+
             }
         });
 
