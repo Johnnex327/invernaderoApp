@@ -31,6 +31,6 @@
         </div>
     </div>
     <div class="copyright-container">
-        <span class="copyright">&copy;2022, itskrey.com</span>
+        <span class="copyright">&copy;2022, UAE</span>
     </div>
 </footer>
