@@ -42,10 +42,10 @@ include 'barra.php';
             <legend>Estado de riego</legend>
 
             <div class="elementos-estado-riego">
-                <p>Estado: </p>
-                <p>Tiempo establecido:</p>
-                <p>Tiempo restante:</p>
-                <input type="submit" value="Cancelar riego" class="boton-cancelar">
+                <p>Estado: Apagado</p>
+                <p>Tiempo establecido: --:--</p>
+                <p>Tiempo restante: --:--</p>
+                <input type="submit" value="Iniciar" class="boton-cancelar">
             </div>
         </fieldset>
 
