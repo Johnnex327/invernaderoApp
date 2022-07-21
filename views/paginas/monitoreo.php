@@ -45,7 +45,7 @@ include 'barra.php';
                 <p>Estado: Apagado</p>
                 <p>Tiempo establecido: --:--</p>
                 <p>Tiempo restante: --:--</p>
-                <input type="submit" value="Iniciar" class="boton-cancelar">
+                <input type="submit" value="Iniciar Riego" class="boton-cancelar">
             </div>
         </fieldset>
 
