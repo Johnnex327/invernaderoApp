@@ -71,7 +71,7 @@ include 'footer.php';
 <script>
     $(document).ready(function() {
 
-        setInterval(charts, 1000);
+        setInterval(charts, 4000);
 
     });
 
