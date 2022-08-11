@@ -52,9 +52,9 @@ include 'barra.php';
         <fieldset class="informacion">
             <legend>Recomendaciones</legend>
             <div>
-                <h4><img class="icon" src="build/img/visto.png">Humedad de suelo: 30 - 40%</h4>
+                <h4><img class="icon" src="build/img/visto.png">Humedad de suelo: 35 - 50%</h4>
                 <h4><img class="icon" src="build/img/visto.png">Temperatura: 21º - 30º</h4>
-                <h4><img class="icon" src="build/img/visto.png">Humedad Relativa: 50% -70%</h4>
+                <h4><img class="icon" src="build/img/visto.png">Humedad Relativa: 50% -80%</h4>
             </div>
         </fieldset>
 
