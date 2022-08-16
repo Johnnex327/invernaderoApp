@@ -19,6 +19,40 @@ include 'barra.php';
 
         <div class="contenedor">
             <div class="card">
+                <h3>HUMEDAD SUELO</h3>
+                <div class="card-content">
+                    <div class="gauge-suelo gaugeMeter" data-theme="blue" data-width="16" data-style="Arch" data-animationstep="0"></div>
+                </div>
+                <p class="value-suelo">0 %</p>
+            </div>
+        </div>
+
+        <div class="contenedor">
+            <div class="card">
+                <h3>HUMEDAD SUELO</h3>
+                <div class="card-content">
+                    <div class="gauge-suelo gaugeMeter" data-theme="blue" data-width="16" data-style="Arch" data-animationstep="0"></div>
+                </div>
+                <p class="value-suelo">0 %</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="contenedor">
+            <div class="card">
+                <h3>HUMEDAD SUELO</h3>
+                <div class="card-content">
+                    <div class="gauge-suelo gaugeMeter" data-theme="blue" data-width="16" data-style="Arch" data-animationstep="0"></div>
+                </div>
+                <p class="value-suelo">0 %</p>
+            </div>
+        </div>
+
+        <div class="contenedor">
+            <div class="card">
                 <h3>TEMPERATURA</h3>
                 <div class="card-content">
                     <div class="gauge-temperature GaugeMeter gaugeMeter" data-theme="green" data-width="16" data-style="Arch" data-animationstep="0"></div>
@@ -37,6 +71,7 @@ include 'barra.php';
         </div>
 
     </div>
+
     <div class="contenedor division">
         <fieldset class="informacion">
             <legend>Estado de riego</legend>
@@ -45,7 +80,7 @@ include 'barra.php';
                 <p>Estado:    Apagado</p>
                 <p>Tiempo establecido: --:--</p>
                 <p>Tiempo restante: --:--</p>
-                <input type="submit" value="Iniciar Riego" class="boton-cancelar">
+                <input type="submit" value="Iniciar Riego" class="boton-cancelar" onClick=location.href='/RIEGO=ON'>
             </div>
         </fieldset>
 

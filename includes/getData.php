@@ -15,6 +15,7 @@ if ($data = mysqli_fetch_array($results)) {
     $result["h_suelo"] = $data['h_suelo'];
     $result["temperatura"] = $data['temperatura'];
     $result["h_relativa"] = $data['h_relativa'];
+    //$result["id_micro"] = $data['id_micro'];
     $json = $result;
 
 } else {
