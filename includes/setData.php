@@ -26,7 +26,7 @@
     
     if($resultado->num_rows === 0){//Crea un registro si no existe la fecha en la BD
 
-        $result=$connect->query("INSERT INTO control_riego (fecha, riegos, h_suelo, temperatura, h_relativa, id_micro, texto) VALUES ('".$fecha."', '".$riegos."', '".$h_suelo."', '".$temperatura."', '".$h_relativa."', '".$id_micro."', );");
+        $result=$connect->query("INSERT INTO control_riego (fecha, riegos, h_suelo, temperatura, h_relativa, id_micro) VALUES ('".$fecha."', '".$riegos."', '".$h_suelo."', '".$temperatura."', '".$h_relativa."', '".$id_micro."' );");
     }
 
     mysqli_close($connect);
