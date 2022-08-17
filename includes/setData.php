@@ -23,12 +23,12 @@
 
         //Programar el promedio se humedad / 2
 
-        $result=$connect->query("UPDATE control_riego SET riegos='".$riegos."', h_suelo='".$h_suelo."', temperatura='".$temperatura."',  h_relativa='".$h_relativa."', id_micro='".$id_micro."', texto='".$texto."' WHERE fecha='".$fecha."' AND id_micro='".$id_micro."' ");
+        $result=$connect->query("UPDATE control_riego SET riegos='".$riegos."', h_suelo='".$h_suelo."', temperatura='".$temperatura."',  h_relativa='".$h_relativa."', id_micro='".$id_micro."', estado='".$estado."' WHERE fecha='".$fecha."' AND id_micro='".$id_micro."' ");
     }
     
     if($resultado->num_rows === 0){//Crea un registro si no existe la fecha en la BD
 
-        $result=$connect->query("INSERT INTO control_riego (fecha, riegos, h_suelo, temperatura, h_relativa, id_micro, texto) VALUES ('".$fecha."', '".$riegos."', '".$h_suelo."', '".$temperatura."', '".$h_relativa."', '".$id_micro."', '".$texto."' );");
+        $result=$connect->query("INSERT INTO control_riego (fecha, riegos, h_suelo, temperatura, h_relativa, id_micro, estado) VALUES ('".$fecha."', '".$riegos."', '".$h_suelo."', '".$temperatura."', '".$h_relativa."', '".$id_micro."', '".$estado."' );");
     }
 
     mysqli_close($connect);
