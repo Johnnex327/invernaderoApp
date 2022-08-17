@@ -124,8 +124,8 @@ include 'footer.php';
 
         $.ajax({
             //Para local
-            url: "http://localhost:3000/getData",
-            /* url: "https://cryptic-meadow-83396.herokuapp.com/getData", */
+            /* url: "http://localhost:3000/getData", */
+            url: "https://cryptic-meadow-83396.herokuapp.com/getData",
             type: "GET",
             dataType: "json",
             success: function(data) {
