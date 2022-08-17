@@ -10,7 +10,7 @@
     $h_suelo = $_POST['h_suelo'] ??  0;
     $temperatura = $_POST['temperatura'] ??  32;
     $h_relativa = $_POST['h_relativa'] ??  65;
-    $id_micro = $_POST['id_micro'] ?? 10;
+    $id_micro = $_POST['id_micro'] ?? 12;
     $estado = $_POST['estado'] ?? "sin dato";
 
 
