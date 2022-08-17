@@ -84,10 +84,13 @@ include 'barra.php';
             <legend>Estado de riego</legend>
 
             <div class="elementos-estado-riego">
-                <p class="estado">Estado: </p>
-                <p>Tiempo establecido: --:--</p>
+                <p>Riego Hilera 1: <span class="estado"> - </span></p>
+                <p>Riego Hilera 2: <span class="estado2"> - </span></p>
+                <p>Riego Hilera 3: <span class="estado3"> - </span></p>
+                <p>Riego Hilera 4: <span class="estado4"> - </span></p>
+                <!-- <p>Tiempo establecido: --:--</p>
                 <p>Tiempo restante: --:--</p>
-                <input type="submit" value="Iniciar Riego" class="boton-cancelar" onClick=location.href='/RIEGO=ON'>
+                <input type="submit" value="Iniciar Riego" class="boton-cancelar" onClick=location.href='/RIEGO=ON'> -->
             </div>
         </fieldset>
 
@@ -180,6 +183,9 @@ include 'footer.php';
                 /* ------------------------------------------------ */
 
                 $(".estado").html(data.estado);
+                $(".estado2").html(data.estado2);
+                $(".estado3").html(data.estado3);
+                $(".estado4").html(data.estado4);
                 
 
             }

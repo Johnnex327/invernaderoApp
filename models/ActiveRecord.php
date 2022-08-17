@@ -114,7 +114,7 @@ class ActiveRecord {
         date_default_timezone_set("America/Guayaquil");
         $fecha_actual = date("Y-m-d");
         $fecha_menos_x_dias = date("Y-m-d", strtotime($fecha_actual."- "."$dias"." days"));
-        $query = "SELECT * FROM control_riego WHERE fecha BETWEEN " . "'" . strval($fecha_menos_x_dias). "'". " AND " . "'" . strval($fecha_actual) . "';";
+        $query = "SELECT * FROM control_riego WHERE fecha BETWEEN " . "'" . strval($fecha_menos_x_dias). "'". " AND " . "'" . strval($fecha_actual) . "' AND id_micro=1;";
         $resultado = self::consultarSQL($query);
         return $resultado;
     }

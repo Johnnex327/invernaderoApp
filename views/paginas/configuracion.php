@@ -7,7 +7,7 @@ include 'barra.php';
 
     <div>
 
-        <div class="div-configuracion">
+        <!-- <div class="div-configuracion">
             <p>Tiempo de riego (Horas): </p>
             <input type="text" name="tiempo_riego" placeholder="Ingresar tiempo de regado" value="<?php echo s($configuracion[0]->tiempo_riego); ?>">
         </div>
@@ -16,16 +16,16 @@ include 'barra.php';
             <p>Frecuencia de escaneado de sensor: </p>
             <input type="datetime" name="frecu_escaneado" placeholder="Minutos" value="<?php echo s($configuracion[0]->frecu_escaneado); ?>">
         </div>
-
+ -->
         <div class="div-configuracion">
             <p>Porcentaje de humedad de suelo mínimo: </p>
             <input type="number" name="porc_minimo" placeholder="Ingresar porcentaje minimo de suelo" value="<?php echo s($configuracion[0]->porc_minimo); ?>">
         </div>
 
-        <div class="div-configuracion">
+       <!--  <div class="div-configuracion">
             <p>Porcentaje de humedad suelo máximo: </p>
             <input type="datetime" name="porc_maximo" placeholder="Ingresar porcentaje maximo de suelo" value="<?php echo s($configuracion[0]->porc_maximo); ?>">
-        </div>
+        </div> -->
 
         <div class="div-configuracion">
             <p>Notificar inicio de riego: </p>
