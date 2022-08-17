@@ -84,7 +84,7 @@ include 'barra.php';
             <legend>Estado de riego</legend>
 
             <div class="elementos-estado-riego">
-                <p>Estado: <span class="estado"> - </span></p>
+                <p class="estado">Estado: </p>
                 <p>Tiempo establecido: --:--</p>
                 <p>Tiempo restante: --:--</p>
                 <input type="submit" value="Iniciar Riego" class="boton-cancelar" onClick=location.href='/RIEGO=ON'>

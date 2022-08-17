@@ -11,7 +11,7 @@
     $temperatura = $_POST['temperatura'] ??  32;
     $h_relativa = $_POST['h_relativa'] ??  65;
     $id_micro = $_POST['id_micro'] ?? 10;
-    $texto = "hola";
+    $estado = $_POST['estado'] ?? "-";
 
 
     $query = "SELECT * FROM control_riego WHERE fecha = '".$fecha."' AND id_micro= '$id_micro' ";

@@ -28,25 +28,25 @@ and $data4 = mysqli_fetch_array($results4)
     $result["temperatura"] = $data['temperatura'];
     $result["h_relativa"] = $data['h_relativa'];
     $result["id_micro"] = $data['id_micro'];
-    $result["estado"] = $data['id_micro'];
+    $result["estado"] = $data['estado'];
 
     $result["h_suelo2"] = $data2['h_suelo'];
     $result["temperatura2"] = $data2['temperatura'];
     $result["h_relativa2"] = $data2['h_relativa'];
     $result["id_micro2"] = $data2['id_micro'];
-    $result["estado2"] = $data2['id_micro'];
+    $result["estado2"] = $data2['estado'];
 
     $result["h_suelo3"] = $data3['h_suelo'];
     $result["temperatura3"] = $data3['temperatura'];
     $result["h_relativa3"] = $data3['h_relativa'];
     $result["id_micro3"] = $data3['id_micro'];
-    $result["estado3"] = $data3['id_micro'];
+    $result["estado3"] = $data3['estado'];
 
     $result["h_suelo4"] = $data4['h_suelo'];
     $result["temperatura4"] = $data4['temperatura'];
     $result["h_relativa4"] = $data4['h_relativa'];
     $result["id_micro4"] = $data4['id_micro'];
-    $result["estado4"] = $data4['id_micro'];
+    $result["estado4"] = $data4['estado'];
 
 
     $json = $result;
