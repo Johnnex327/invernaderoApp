@@ -1,7 +1,7 @@
 <footer>
     <div class="footer-container">
         <div class="footer-content-container">
-            <h3 class="website-logo">Invernadero App</h3>
+            <h3 class="website-logo">InvernApp</h3>
             <span class="footer-info">Programadores:</span>
             <span class="footer-info">Jhon.naib327@gmail.com</span>
             <span class="footer-info">Zambr@gmail.com</span>

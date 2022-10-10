@@ -6,7 +6,7 @@ include 'barra.php';
 
 <div class="contenedor">
     <div class="container-reportes">
-        <div class="div-reportes">
+        <div class="encabezado-reportes">
 
             <div>
                 <h3>Riegos realizados</h3>
