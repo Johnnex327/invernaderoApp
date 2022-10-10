@@ -9,7 +9,7 @@ include 'barra.php';
         <div class="encabezado-reportes">
 
             <div>
-                <h3>Riegos realizados</h3>
+                <h3>Riegos realizadosd</h3>
             </div>
 
             <div>
