@@ -31,14 +31,16 @@ include 'barra.php';
 
         <div>
             <div class="fondo-7dias">
+                <h2 class="periodo">Ultimos 7 dias</h2>
                 <div class="caja-riego">
+
                     <div class="elementos-caja-superior">
                         <img class="icon" src="build/img/hsuelo.png">
                         <h3><?php echo $riegos_7dias; ?></h3>
                     </div>
 
                     <div class="elementos-caja-inferior">
-                        <h3><span>Riegos </span>7 dias</h3>
+                        <h3><span class="tipo">Riegos</span> <span class="dias">7 dias</span></h3>
                     </div>
                 </div>
 
@@ -49,7 +51,7 @@ include 'barra.php';
                     </div>
 
                     <div class="elementos-caja-inferior">
-                        <h3><span>H. suelo </span>7 dias</h3>
+                        <h3><span class="tipo">H. suelo </span><span class="dias">7 dias</span></h3>
                     </div>
                 </div>
 
@@ -60,7 +62,7 @@ include 'barra.php';
                     </div>
 
                     <div class="elementos-caja-inferior">
-                        <h3><span>Temp. </span>7 dias</h3>
+                        <h3><span class="tipo">Temp. </span><span class="dias">7 dias</span></h3>
                     </div>
                 </div>
 
@@ -71,7 +73,7 @@ include 'barra.php';
                     </div>
 
                     <div class="elementos-caja-inferior">
-                        <h3>H. relativa 7 dias</h3>
+                        <h3><span class="tipo">H. Relativa</span> <span class="dias">7 dias</span></h3>
                     </div>
                 </div>
             </div>
@@ -81,7 +83,7 @@ include 'barra.php';
 
         <!-- 14 dias -->
         <div>
-
+            <h2 class="periodo">Ultimos 14 dias</h2>
             <div class="fondo-14dias">
                 <div class="caja-riego">
                     <div class="elementos-caja-superior">
@@ -90,7 +92,7 @@ include 'barra.php';
                     </div>
 
                     <div class="elementos-caja-inferior">
-                        <h3>14 dias</h3>
+                    <h3><span class="tipo">Riegos</span> <span class="dias">14 dias</span></h3>
                     </div>
                 </div>
 
@@ -101,7 +103,7 @@ include 'barra.php';
                     </div>
 
                     <div class="elementos-caja-inferior">
-                        <h3>14 dias</h3>
+                    <h3><span class="tipo">H. suelo </span><span class="dias">14 dias</span></h3>
                     </div>
                 </div>
 
@@ -112,7 +114,7 @@ include 'barra.php';
                     </div>
 
                     <div class="elementos-caja-inferior">
-                        <h3>14 dias</h3>
+                    <h3><span class="tipo">Temp. </span><span class="dias">14 dias</span></h3>
                     </div>
                 </div>
 
@@ -123,7 +125,7 @@ include 'barra.php';
                     </div>
 
                     <div class="elementos-caja-inferior">
-                        <h3>14 dias</h3>
+                    <h3><span class="tipo">H. Relativa</span> <span class="dias">14 dias</span></h3>
                     </div>
                 </div>
 
@@ -138,6 +140,7 @@ include 'barra.php';
         <div>
 
             <div class="fondo-30dias">
+            <h2 class="periodo">Ultimos 30 dias</h2>
                 <div class="caja-riego">
                     <div class="elementos-caja-superior">
                         <img class="icon" src="build/img/hsuelo.png">
@@ -145,7 +148,7 @@ include 'barra.php';
                     </div>
 
                     <div class="elementos-caja-inferior">
-                        <h3>30 dias</h3>
+                    <h3><span class="tipo">Riegos</span> <span class="dias">14 dias</span></h3>
                     </div>
                 </div>
 
@@ -156,7 +159,7 @@ include 'barra.php';
                     </div>
 
                     <div class="elementos-caja-inferior">
-                        <h3>30 dias</h3>
+                    <h3><span class="tipo">H. suelo </span> <span class="dias">30 dias</span></h3>
                     </div>
                 </div>
 
@@ -167,7 +170,7 @@ include 'barra.php';
                     </div>
 
                     <div class="elementos-caja-inferior">
-                        <h3>30 dias</h3>
+                    <h3><span class="tipo">Temp. </span> <span class="dias">30 dias</span></h3>
                     </div>
                 </div>
 
@@ -178,7 +181,7 @@ include 'barra.php';
                     </div>
 
                     <div class="elementos-caja-inferior">
-                        <h3>30 dias</h3>
+                    <h3><span class="tipo">H. Relativa</span><span class="dias">30 dias</span></h3>
                     </div>
                 </div>
             </div>
