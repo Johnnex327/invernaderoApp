@@ -27,9 +27,9 @@ class Router
         // Arreglo de rutas protegidas...
         $rutas_protegidas = ['/', '/configuracion', '/reportes'];
 
-        /* $currentUrl = $_SERVER["REDIRECT_URL"] === '' ? '/' : $_SERVER["REDIRECT_URL"]; */
+        $currentUrl = $_SERVER["REDIRECT_URL"] === '' ? '/' : $_SERVER["REDIRECT_URL"];
         
-        $currentUrl = $_SERVER['REQUEST_URI'] === '' ? '/' : $_SERVER['REQUEST_URI']; 
+        /* $currentUrl = $_SERVER['REQUEST_URI'] === '' ? '/' : $_SERVER['REQUEST_URI'];  */
        
         /*  if ($_SERVER['PATH_INFO']) {
             $currentUrl = $_SERVER['PATH_INFO'] ?? '/';
