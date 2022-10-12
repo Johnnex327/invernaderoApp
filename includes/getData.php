@@ -14,6 +14,8 @@ $query2 = "select * from control_riego where fecha= '".$fecha."' AND id_micro= '
 $query3 = "select * from control_riego where fecha= '".$fecha."' AND id_micro= '3' ";
 $query4 = "select * from control_riego where fecha= '".$fecha."' AND id_micro= '4' ";
 
+debuguear($query);
+
 $results = mysqli_query($connect, $query);
 $results2 = mysqli_query($connect, $query2);
 $results3 = mysqli_query($connect, $query3);
